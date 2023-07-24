@@ -43,16 +43,14 @@ In a Convolutional Neural Network (CNN), several components play vital roles in 
 - The implementation of the Convolution and Max Pooling layers will be done in Python using numpy, a powerful library for numerical computations.
 - Build and train a ConvNet in TensorFlow for a binary classification problem (happy face or not)
 - Build and train a ConvNet in TensorFlow for a multiclass classification problem (hand sign recognition)
-![Alt Text](output_images/TF_multiclass_model_loss.png)
-![Alt Text](output_images/TF_multiclass_model_accuracy.png)
 
 ## Results
 - succesffully implemented and tested CNN forward and backpropogation with sample test cases
 - Test accuracy : 88 % for binary classification
 - Test accuracy : 80 % for multiclass classification
-
-
-
+- Below figures show multiclass model classification loss and accuracy over training epochs.
+![Alt Text](output_images/TF_multiclass_model_loss.png)
+![Alt Text](output_images/TF_multiclass_model_accuracy.png)
 
 ## Sources
 
