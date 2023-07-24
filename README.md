@@ -1,6 +1,6 @@
 # Implementation of Convolutional Neural Network (CNN) with Numpy
 
-This project implements a Convolutional Neural Network (CNN) step-by-step using numpy. The goal of this project is to understand the key components of CNNs, including convolution and pooling layers, and build a CNN from scratch and also used the Tensorflow framework for sign recognition.
+This project implements a Convolutional Neural Network (CNN) step-by-step using numpy. The goal of this project is to understand the key components of CNNs, including convolution and pooling layers, and build a CNN from scratch and also used the Tensorflow framework for binary/multiclass classification.
 
 ## Table of Contents
 
@@ -9,6 +9,8 @@ This project implements a Convolutional Neural Network (CNN) step-by-step using 
 - [Max Pooling Operation](#max-pooling-operation)
 - [Components of CNN](#components-of-cnn)
 - [Implementation](#implementation)
+- [Results](#Results)
+
 
 ## Introduction
 
@@ -38,8 +40,21 @@ In a Convolutional Neural Network (CNN), several components play vital roles in 
 
 ## Implementation
 
-The implementation of the Convolution and Max Pooling layers will be done in Python using numpy, a powerful library for numerical computations.
+- The implementation of the Convolution and Max Pooling layers will be done in Python using numpy, a powerful library for numerical computations.
+- Build and train a ConvNet in TensorFlow for a binary classification problem (happy face or not)
+- Build and train a ConvNet in TensorFlow for a multiclass classification problem (hand sign recognition)
+![Alt Text](output_images/TF_multiclass_model_loss.png)
+![Alt Text](output_images/TF_multiclass_model_accuracy.png)
+
+## Results
+- succesffully implemented and tested CNN forward and backpropogation with sample test cases
+- Test accuracy : 88 % for binary classification
+- Test accuracy : 80 % for multiclass classification
+
+
+
 
 ## Sources
-- Foundation of ML (cs725)
+
+- Foundation of ML (CS725)
 - Coursera Deep learning specilization
