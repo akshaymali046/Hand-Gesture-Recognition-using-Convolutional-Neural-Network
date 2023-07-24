@@ -1,4 +1,4 @@
-# Convolutional Neural Network (CNN) with Numpy
+# Implementation of Convolutional Neural Network (CNN) with Numpy
 
 This project implements a Convolutional Neural Network (CNN) step-by-step using numpy. The goal of this project is to understand the key components of CNNs, including convolution and pooling layers, and build a CNN from scratch.
 
