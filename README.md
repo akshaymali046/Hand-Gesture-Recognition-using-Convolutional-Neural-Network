@@ -1,4 +1,4 @@
-# Implementation of Convolutional Neural Network (CNN) with Numpy
+# Hand Gesture Recognition using Convolutional Neural Network
 
 This project implements a Convolutional Neural Network (CNN) step-by-step using numpy. The goal of this project is to understand the key components of CNNs, including convolution and pooling layers, and build a CNN from scratch and also used the Tensorflow framework for binary/multiclass classification.
 
